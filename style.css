@@ -190,33 +190,39 @@ footer img{
     padding: 15px;
 }
 
+/* responsive section */
 @media screen (max-width:576px){
     .nav-container{
-        display: block;
+        flex-direction: column;
+    }
+    .options{
+        flex-direction: column;
     }
     .play-container{
         display: flex;
-        /* flex-wrap: wrap; */
         flex-direction: column;
     }
     .play{
-        display: flex;
         flex-direction: column;
         flex: 1;
         /* max-width: 400px;
         margin-right: 20px; */
     }
-    /* .play-text{
+    .play-text{
         margin: 10px 0;
     }
     .img1{
         max-width: 100%;
         height: auto;
-    } */
+    }
+    .online-games-images{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .play-instantly{
+        flex-direction: column;
+    }
 }
 @media screen (min-width:577px) and (max-width:960px){
-    
-}
-@media screen (min-width:961px) and (max-width:1200px){
     
 }

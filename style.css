@@ -205,6 +205,7 @@ footer img{
 }
 
 /* responsive section */
+
 @media screen and (max-width:576px){
     .nav-container{
         flex-direction: column;
@@ -212,8 +213,6 @@ footer img{
     .options{
         flex-direction: column;
         align-items: center;
-        /* display: grid;
-        grid-template-columns: repeat(1,1fr); */
     }
     .options-box1{
         display: grid;
@@ -225,19 +224,21 @@ footer img{
     .play{
         flex-direction: column;
         flex: 1;
-        /* max-width: 400px;
-        margin-right: 20px; */
-    }
-    .play-text{
-        
     }
     .img1{
         max-width: 100%;
         height: auto;
     }
+    .online-games {
+        width: 80%;
+        margin: 0 auto;
+    }
     .online-games-images{
         display: grid;
         grid-template-columns: repeat(1,1fr);
+    }
+    .online-games-images p{
+        text-align: center;
     }
     .play-instantly{
         flex-direction: column;
@@ -257,52 +258,45 @@ footer img{
         grid-template-columns: repeat(3,1fr);
         padding: 10px;
     }
-    footer ul{
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-    }
-    .footer-icons{
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-    }
-    .footer-text{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-    }
     .icon>img{
-        width: 20px;
-        height: 20px;
+        width: 30px;
+        height: 30px;
     }
     .icon>h3{
         font-size: 6px;
         }
-        .icon{
+    .icon{
             gap: 3px;
             padding: 2px;
         }
-        .online-games {
-            width: 80%;
-            margin: 0 auto;
-        }
-        .img2 {
+    
+    .img2 {
             width: 100%;
             height: 100%;
         }
-        .online-games-images p{
-            text-align: center;
-        }
-        .sp-img {
+    
+    .sp-img {
            height: auto;
             width: 70%;
             margin-left: 60px;
         }
-        .img3 {
-           
+    .img3 { 
             left: 5px;
             top: -50px;
         }
-        
- 
+    footer ul{
+        gap: 30px;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+        }
+    .footer-icons{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+        }
+    .footer-text{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+        }
 }
 @media screen and (min-width:577px) and (max-width:960px){
     

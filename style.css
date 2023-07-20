@@ -155,6 +155,9 @@ ul img{
     left: -150px;
     top: -270px;
 }
+
+/* icon container */
+
 .icon-container{
     background-image: url("./images/Group\ 14.png");
     padding: 100px;
@@ -197,6 +200,7 @@ footer img{
     height: 30px;
 }
 .footer-text{
+    font-size: 15px;
     display: flex;
     justify-content: center;
     gap: 50px;
@@ -269,7 +273,6 @@ footer img{
         display: grid;
         grid-template-columns: repeat(3,1fr);
         padding: 15px 15px 15px 25px;
-        justify-content: center;
     }
     .icon{
         gap: 10px;
@@ -282,21 +285,25 @@ footer img{
     }
     .icon>h3{
         font-size: 6px;
-        }
+    }
+    footer{
+        font-size: 15px;
+    }
     footer ul{
         gap: 30px;
         display: grid;
         grid-template-columns: repeat(3,1fr);
-        }
+    }
     .footer-icons{
+        gap: 40px;
         display: grid;
         grid-template-columns: repeat(3,1fr);
-        }
+    }
     .footer-text{
-        display: grid;
         gap: 15px;
+        display: grid;
         grid-template-columns: repeat(2,1fr);
-        }
+    }
 }
 
 @media screen and (min-width:577px) and (max-width:960px){
@@ -346,38 +353,37 @@ footer img{
         height: 200px;
         left: -180px;
         top: -150px;
-     }
+    }
     .icon-container{
         display: grid;
         grid-template-columns: repeat(3,1fr);
-        align-items: center;
-        padding: 10px;
+        gap: 15px;
     }
     .icon{
-        gap: 3px;
-        padding: 2px;
+        gap: 20px;
+        padding: 10px;
         align-items: center;
     }
-    .icon>img{
-        width: 30px;
-        height: 30px;
+    .icon img{
+        width: 60px;
+        height: 60px;
     }
-    .icon>h3{
-        font-size: 6px;
+    .icon h3{
+        font-size: 7px;
     }    
     footer ul{
         gap: 30px;
-            display: grid;
-            grid-template-columns: repeat(3,1fr);
-        }
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
     .footer-icons{
-            display: grid;
-            grid-template-columns: repeat(3,1fr);
-            margin-left: 70px;
-        }
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin-left: 85px;
+    }
     .footer-text{
-            display: grid;
-            grid-template-columns: repeat(2,1fr);
-            gap: 5px;
-        }
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 5px;
+    }
 }
